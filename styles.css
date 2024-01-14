@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:linear-gradient(to right, #362a1a, black);
+}
+.mainframe{
+    box-shadow: 5px 8px rgba(0,0,0,.9);
+    display:flex;
+    margin-left:180px;
+    margin-right:200px;
+    margin-top:60px;
+    padding-bottom:110px;
+    background-color:#ffb301ea;
+    border-radius: 30px;
+    animation-name:mframe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#image{
+    position: absolute;
+    margin-left:550px;
+    margin-top:-1px;
+    animation-name:imgani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes imgani{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 6px); }
+    100%   { transform: translate(0, -0px); }
+}
+@keyframes mframe{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 6px); }
+    100%   { transform: translate(0, -0px); }
+}
+h3{
+    margin-left:13px;
+    margin-top:10px;
+}
+#navbar1{
+    position: absolute;
+    display:flex;
+    margin-left:580px;
+    margin-top:-42px;
+    list-style: none;
+}
+#a1, #a2, #a3, #a4{
+    margin-right:28px;
+    text-decoration: none;
+    color:#fff;
+    font-family: "Salsa", cursive;
+    font-size: 20px;
+}
+#a1:hover,#a2:hover,#a3:hover,#a4:hover {
+    color: #362a1a;
+    border-bottom:2px solid #362a1a;
+}
+.main{
+    margin-top:150px;
+    margin-left:23px;
+    font-family: "Salsa", cursive;
+}
+h3{
+    font-family: "Salsa", cursive;
+    letter-spacing: 2px;
+    color:#53442f;
+}
+#lio{
+    color:#fff; 
+}
+#line1{
+    color:#fff;
+    font-size: 20px;
+}
+#line2{
+    color:#362a1a;
+    font-size: 60px;
+    margin-top:-20px;
+}
+#line3{
+    color:#53442f;
+    font-size: 30px;
+    margin-top:-50px;
+}
+#btn{
+    padding:3px 10px ;
+    font-family: "Salsa", cursive;
+    color:#fff;
+    background-color: #362a1a;
+    border-color: transparent;
+    border-radius: 20px;
+}
+#btn:hover{
+    transform: scale(1.4, 1.4);
+}
+/* aboutframe */
+.aboutframe{
+    box-shadow: 5px 8px rgba(0,0,0,.9);
+    display:flex;
+    margin-left:180px;
+    margin-right:200px;
+    margin-top:-100px;
+    padding-bottom:40px;
+    background-color:#ffb301ea;
+    border-radius: 30px;
+    animation-name:aframe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes aframe{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 6px); }
+    100%   { transform: translate(0, -0px); }
+}
+#navbar2{
+    grid-area: h;
+    position: absolute;
+    display:flex;
+    margin-left:580px;
+    list-style: none; 
+}
+#abh2{
+    margin-left: 20px;
+    font-family: "Salsa", cursive;
+    font-size: 30px;
+    color:#362a1a;
+}
+.box{
+    display:flex;
+}
+.box1, .box2, .box3{
+    flex:1;
+    border:1px solid #53442f;
+    margin-top:60px;
+    margin-right:30px;
+    margin-left:30px;
+    margin-bottom:30px;
+    padding-left:43px;
+    padding-top:23px;
+    color:#362a1a;
+    font-family: "Salsa", cursive;
+
+    font-size:30px;
+    box-shadow: 4px 8px 4px rgba(0,0,0,.5);
+    border-radius: 30px;
+}
+#edu, #ski, #exp{
+    color:#fff;
+    font-size:15px;
+    margin-left: 12px;
+    margin-right: 6px;
+    margin-left: -30px;
+}
+/* contactframe */
+.contactframe{
+    box-shadow: 5px 8px rgba(0,0,0,.9);
+    display:flex;
+    margin-left:180px;
+    margin-right:200px;
+    margin-top:-125px;
+    padding-bottom:10px;
+    background-color:#ffb301ea;
+    border-radius: 30px;
+    animation-name: cframe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes cframe{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 6px); }
+    100%   { transform: translate(0, -0px); }
+}
+#navbar3{
+    position: absolute;
+    display:flex;
+    margin-left:580px;
+    list-style: none; 
+}
+#coh2{
+    margin-left: 20px;
+    font-family: "Salsa", cursive;
+    font-size: 30px;
+    color:#362a1a;
+}
+#dialogue{
+    margin-left: 20px;
+    font-family: "Salsa", cursive;
+    color:#53442f;
+}
+#dialogue h1{
+    margin-top:-13px;
+    font-size: 40px;
+}
+#me{
+    color:#fff;
+}
+.infoform{
+    margin-left:240px;
+}
+.txt{
+    margin-bottom: 20px;
+    padding-top:8px;
+    padding-right:260px;
+    padding-bottom:8px;
+    background-color: #53442fb4;
+    color:#fff;
+    font-family: "Salsa", cursive;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: transparent;
+    padding-left:20px;
+    border-color: transparent;
+}
+.txt:hover{
+    transform:scale(1.1,1.1);
+}
+#umsg{
+    padding-bottom:80px;
+}
+#btn2{
+    padding:6px 30px;
+    border-radius: 20px;
+    background-color: #53442fb7;
+    color:#fff;
+    border:none;
+    font-size:18px;
+    font-family: "Salsa", cursive;
+}
+#btn2:hover{
+    transform:scale(1.1,1.1);
+}
+ #invline1{
+    margin:90px 180px 190px;
+}
+#invline2{
+    margin:80px 180px 190px;
+}
+
